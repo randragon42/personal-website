@@ -216,10 +216,20 @@ hr.small {
 
 .portfolio-item {
     margin-bottom: 30px;
+    position: relative;
+}
+
+.portfolio-title {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    color: #fff;
+    background: rgba(40, 40, 40, .8);
 }
 
 .img-portfolio {
     margin: 0 auto;
+    position: relative;
 }
 
 .img-portfolio:hover {

@@ -48,7 +48,7 @@
           <a class="js-scroll-trigger" href="#photos">Photos</a>
         </li>
         <li>
-          <a class="js-scroll-trigger" href="#contact" onclick=$("#menu-close").click();>Contact</a>
+          <a class="js-scroll-trigger" href="#contact" onclick="$('#menu-close').click()";>Contact</a>
         </li>
       </ul>
     </nav>
@@ -84,55 +84,60 @@
             <hr class="small">
             <div class="row">
               <div class="col-md-3 col-sm-6">
-                <div class="service-item">
+                <div class="service-item">                  
                   <span class="fa-stack fa-4x">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-lightbulb-o fa-stack-1x text-primary"></i>
-                  </span>
+                    <a href="#" style="all:unset">
+                      <i class="fa fa-circle fa-stack-2x"></i>
+                      <i class="fa fa-lightbulb-o fa-stack-1x text-primary"></i>
+                    </a>
+                  </span>                 
                   <h4>
                     <strong>Lumos</strong>
                   </h4>
                   <p>Computer Engineering Senior Design Project</p>
-                  <a href="#" class="btn btn-light">Learn More</a>
+                  <!--<a href="#" class="btn btn-light">Learn More</a>-->
                 </div>
               </div>
               <div class="col-md-3 col-sm-6">
                 <div class="service-item">
                   <span class="fa-stack fa-4x">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-microchip fa-stack-1x text-primary"></i>
+                    <a href="#" style="all:unset">
+                      <i class="fa fa-circle fa-stack-2x"></i>
+                      <i class="fa fa-microchip fa-stack-1x text-primary"></i>
+                    </a>
                   </span>
                   <h4>
                     <strong>Home Automation</strong>
                   </h4>
                   <p>Raspberry Pi Hardware Hacking</p>
-                  <a href="#" class="btn btn-light">Learn More</a>
                 </div>
               </div>
               <div class="col-md-3 col-sm-6">
                 <div class="service-item">
                   <span class="fa-stack fa-4x">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-handshake-o fa-stack-1x text-primary"></i>
+                    <a href="#" style="all:unset">
+                      <i class="fa fa-circle fa-stack-2x"></i>
+                      <i class="fa fa-handshake-o fa-stack-1x text-primary"></i>
+                    </a>
                   </span>
                   <h4>
                     <strong>Don8</strong>
                   </h4>
                   <p>Mobile App To Pair Volunteers With Service Opportunities</p>
-                  <a href="#" class="btn btn-light">Learn More</a>
                 </div>
               </div>
               <div class="col-md-3 col-sm-6">
                 <div class="service-item">
                   <span class="fa-stack fa-4x">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-barcode fa-stack-1x text-primary"></i>
+                    <a href="#" style="all:unset">
+                      <i class="fa fa-circle fa-stack-2x"></i>
+                      <i class="fa fa-barcode fa-stack-1x text-primary"></i>
+                    </a>
                   </span>
                   <h4>
                     <strong>Free Made</strong>
                   </h4>
                   <p>App To Check Products For Slave Labor</p>
-                  <a href="#" class="btn btn-light">Learn More</a>
                 </div>
               </div>
             </div>
@@ -164,6 +169,7 @@
                 <div class="portfolio-item">
                   <a href="#">
                     <img class="img-portfolio img-fluid" src="img/astrophotography/starry-trees.jpg">
+                    <h2 class="portfolio-title">Astrophotography</h2>
                   </a>
                 </div>
               </div>
@@ -171,6 +177,7 @@
                 <div class="portfolio-item">
                   <a href="#">
                     <img class="img-portfolio img-fluid" src="img/landscapes/sunset.jpg">
+                    <h2 class="portfolio-title">Landscapes</h2>
                   </a>
                 </div>
               </div>
@@ -178,6 +185,7 @@
                 <div class="portfolio-item">
                   <a href="#">
                     <img class="img-portfolio img-fluid" src="img/fun/small-barn.jpg">
+                    <h2 class="portfolio-title">Fun</h2>
                   </a>
                 </div>
               </div>
@@ -185,6 +193,7 @@
                 <div class="portfolio-item">
                   <a href="#">
                     <img class="img-portfolio img-fluid" src="img/fun/monkeys.jpg">
+                    <h2 class="portfolio-title">Other</h2>
                   </a>
                 </div>
               </div>
