@@ -30,6 +30,18 @@ body {
     padding: 0;
 }
 
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
+.text-dark-bg {
+    border: none;
+    border-radius: 0;
+    background-color: rgba(0, 0, 0, .6);
+    padding: 15px;
+}
+
 .text-white {
     color: #fff;
 }
