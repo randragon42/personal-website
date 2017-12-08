@@ -227,8 +227,13 @@ hr.small {
 }
 
 .portfolio-item {
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
     position: relative;
+    /* New */
+    overflow: hidden;
+    margin: 20px;
+    width: 300px;
+    height: 200px;
 }
 
 .portfolio-title {
@@ -240,8 +245,19 @@ hr.small {
 }
 
 .img-portfolio {
-    margin: 0 auto;
-    position: relative;
+    /* margin: 0 auto;
+    position: relative; */
+    position: absolute;
+    margin: auto; 
+    min-height: 100%;
+    min-width: 100%;
+
+    /* For the following settings we set 100%, but it can be higher if needed 
+    See the answer's update */
+    left: -100%;
+    right: -100%;
+    top: -100%;
+    bottom: -100%;
 }
 
 .img-portfolio:hover {
