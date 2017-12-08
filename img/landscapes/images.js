@@ -10,6 +10,11 @@ imageData =
             filename: "sunset.jpg",
             title: "Sunset",
             description: ""
+        },
+        {
+            filename: "bridge.jpg",
+            title: "",
+            description: ""
         }
     ]
 }

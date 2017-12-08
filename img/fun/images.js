@@ -10,6 +10,16 @@ imageData =
             filename: "small-barn.jpg",
             title: "Small Barn",
             description: ""
+        },
+        {
+            filename: "flower.jpg",
+            title: "",
+            description: ""
+        },
+        {
+            filename: "leaves.jpg",
+            title: "",
+            description: ""
         }
     ]
 }
