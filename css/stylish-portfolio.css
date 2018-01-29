@@ -264,6 +264,13 @@ hr.small {
     opacity: .8;
 }
 
+.project-description {
+    margin-bottom: 0px;
+}
+
+.project-link {
+    cursor: pointer;
+}
 
 /* Call to Action */
 
